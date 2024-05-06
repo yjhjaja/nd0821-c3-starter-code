@@ -4,8 +4,8 @@ import os, pickle, sys
 import numpy  as np
 import pandas as pd
 
-path_proj = '/Users/junhui.yang/Library/CloudStorage/Dropbox/udacity/nd0821-c3-starter-code-master/'
-sys.path.insert(1, path_proj + 'ml/')
+dir = os.path.dirname(__file__)
+sys.path.insert(1, os.path.join(dir, 'ml'))
 from model import inference
 from data  import process_data
         
