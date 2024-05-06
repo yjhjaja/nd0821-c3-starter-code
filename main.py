@@ -11,9 +11,9 @@ from data  import process_data
         
 app = FastAPI()
 
-model   = pickle.load(open(path_proj + 'model/model.pkl'  , 'rb'))
-encoder = pickle.load(open(path_proj + 'model/encoder.pkl', 'rb'))
-lb      = pickle.load(open(path_proj + 'model/lb.pkl'     , 'rb'))
+model   = pickle.load(open(path_proj + '/model/model.pkl'  , 'rb'))
+encoder = pickle.load(open(path_proj + '/model/encoder.pkl', 'rb'))
+lb      = pickle.load(open(path_proj + '/model/lb.pkl'     , 'rb'))
 
 class InputData(BaseModel):
     # Example: first row of census.csv
