@@ -3,7 +3,7 @@ import numpy as np
 from sklearn.ensemble import GradientBoostingClassifier
 
 dir = os.path.join(os.path.dirname(__file__), '..')
-sys.path.insert(1, os.path.join(dir, ml))
+sys.path.insert(1, os.path.join(dir, 'ml'))
 from model import train_model, compute_model_metrics, inference
 
 @pytest.fixture
