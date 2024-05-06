@@ -1,0 +1,80 @@
+Class: education =  Assoc-acdm 
+Precision: 0.6111 
+Recall: 0.6600 
+Fbeta: 0.6346 
+
+Class: education =  Some-college 
+Precision: 0.7834 
+Recall: 0.5923 
+Fbeta: 0.6746 
+
+Class: education =  HS-grad 
+Precision: 0.7480 
+Recall: 0.2879 
+Fbeta: 0.4158 
+
+Class: education =  Bachelors 
+Precision: 0.7681 
+Recall: 0.8417 
+Fbeta: 0.8032 
+
+Class: education =  Assoc-voc 
+Precision: 0.8000 
+Recall: 0.5714 
+Fbeta: 0.6667 
+
+Class: education =  Masters 
+Precision: 0.7857 
+Recall: 0.8938 
+Fbeta: 0.8363 
+
+Class: education =  11th 
+Precision: 1.0000 
+Recall: 0.3000 
+Fbeta: 0.4615 
+
+Class: education =  Prof-school 
+Precision: 0.7978 
+Recall: 0.9342 
+Fbeta: 0.8606 
+
+Class: education =  7th-8th 
+Precision: 1.0000 
+Recall: 0.2857 
+Fbeta: 0.4444 
+
+Class: education =  10th 
+Precision: 1.0000 
+Recall: 0.0833 
+Fbeta: 0.1538 
+
+Class: education =  9th 
+Precision: 1.0000 
+Recall: 0.1429 
+Fbeta: 0.2500 
+
+Class: education =  5th-6th 
+Precision: 1.0000 
+Recall: 0.5000 
+Fbeta: 0.6667 
+
+Class: education =  1st-4th 
+Precision: 1.0000 
+Recall: 0.0000 
+Fbeta: 0.0000 
+
+Class: education =  12th 
+Precision: 1.0000 
+Recall: 0.2500 
+Fbeta: 0.4000 
+
+Class: education =  Doctorate 
+Precision: 0.8413 
+Recall: 0.8413 
+Fbeta: 0.8413 
+
+Class: education =  Preschool 
+Precision: 1.0000 
+Recall: 1.0000 
+Fbeta: 1.0000 
+
