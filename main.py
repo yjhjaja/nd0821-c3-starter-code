@@ -4,8 +4,8 @@ import os, pickle, sys
 import numpy  as np
 import pandas as pd
 
-dir = os.path.dirname(__file__)
-sys.path.insert(1, os.path.join(dir, 'ml'))
+path_proj = os.path.dirname(__file__)
+sys.path.insert(1, os.path.join(path_proj, 'ml'))
 from model import inference
 from data  import process_data
         
