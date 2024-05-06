@@ -4,8 +4,8 @@ import pandas as pd
 import numpy as np
 
 # Add the necessary imports for the starter code.
-sys.path.insert(1, '/Users/junhui.yang/Library/CloudStorage/Dropbox/udacity/nd0821-c3-starter-code-master/ml')
-# sys.path.insert(1, 'H:/nd0821-c3-starter-code-master/ml')
+dir = os.path.dirname(__file__)
+sys.path.insert(1, os.path.join(dir, ml))
 from model import train_model, compute_model_metrics, inference
 from data import process_data
 
