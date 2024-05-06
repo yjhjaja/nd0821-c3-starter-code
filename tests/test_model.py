@@ -1,4 +1,4 @@
-import pytest, sys
+import os, pytest, sys
 import numpy as np
 from sklearn.ensemble import GradientBoostingClassifier
 
