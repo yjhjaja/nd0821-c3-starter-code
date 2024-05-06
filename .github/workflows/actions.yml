@@ -42,14 +42,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install flake8 pytest
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-        
-      # Pull DVC
-      - name: Pull DVC
-        run: |
-          dvc pull
-        env:
-          GDRIVE_CREDENTIALS_DATA: ${{ secrets.GDRIVE_CREDENTIALS_DATA }}
-
+          
       # Lint with flake8
       - name: Lint with flake8
         run: |
@@ -62,16 +55,3 @@ jobs:
       - name: Test with pytest
         run: |
           pytest tests -vv
-
-  # This workflow contains a single job called "deploy"
-  deploy:
-    name: Deploy
-    needs: [build] # our builds must be pass in order to deploy job
-    runs-on: ubuntu-latest
-    
-    steps: 
-      - name: Deploy to production
-        uses: johnbeynon/render-deploy-action@v0.0.8
-        with:
-          service-id: ${{ secrets.SERVICE_ID }} # Can be found as part of the Deploy Hook
-          api-key: ${{ secrets.RENDER_API_KEY }} # Create your API key in Render Dashboard > Account Settings
