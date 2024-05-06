@@ -4,6 +4,12 @@ import os, pickle, sys
 import numpy  as np
 import pandas as pd
 
+if "DYNO" in os.environ and os.path.isdir(".dvc"):
+    os.system("dvc config core.no_scm true")
+    if os.system("dvc pull") != 0:
+        exit("dvc pull failed")
+    os.system("rm -r .dvc .apt/usr/lib/dvc")
+
 path_proj = os.path.dirname(__file__)
 sys.path.insert(1, os.path.join(path_proj, 'ml'))
 from model import inference
