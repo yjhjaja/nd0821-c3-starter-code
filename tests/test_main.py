@@ -1,8 +1,8 @@
 from fastapi.testclient import TestClient
 import json, sys
 
-path_proj = '/Users/junhui.yang/Library/CloudStorage/Dropbox/udacity/nd0821-c3-starter-code-master/'
-sys.path.insert(1, path_proj)
+dir = os.path.join(os.path.dirname(__file__), '..')
+sys.path.insert(1, dir)
 from main import app
 client = TestClient(app)
 
