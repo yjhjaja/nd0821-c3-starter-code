@@ -1,5 +1,5 @@
 from fastapi.testclient import TestClient
-import json, sys
+import json, os, sys
 
 dir = os.path.join(os.path.dirname(__file__), '..')
 sys.path.insert(1, dir)
