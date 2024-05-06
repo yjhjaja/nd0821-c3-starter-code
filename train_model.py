@@ -5,7 +5,7 @@ import numpy as np
 
 # Add the necessary imports for the starter code.
 dir = os.path.dirname(__file__)
-sys.path.insert(1, os.path.join(dir, ml))
+sys.path.insert(1, os.path.join(dir, 'ml'))
 from model import train_model, compute_model_metrics, inference
 from data import process_data
 
