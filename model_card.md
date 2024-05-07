@@ -16,7 +16,7 @@ The data is from https://archive.ics.uci.edu/dataset/20/census+income, where mor
 
 ## Evaluation Data
 
-The original data is first processed and then split into training and evaluation data with a test_size of 0.2.
+The original data is cleaned and then split into training and testing data with a test_size of 0.2.
 
 ## Metrics
 _Please include the metrics used and your model's performance on those metrics._
