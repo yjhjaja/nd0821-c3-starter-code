@@ -20,11 +20,11 @@ The original data is cleaned and then split into training and testing data with 
 
 ## Metrics
 
-precision: 0.7882986913010007 
+precision: 0.79
 
-recall: 0.649746192893401
+recall: 0.65
 
-fbeta: 0.7123478260869565
+fbeta: 0.71
 
 ## Ethical Considerations
 
