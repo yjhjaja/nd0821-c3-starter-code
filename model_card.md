@@ -12,7 +12,7 @@ Given a set of census individual characteristics, the model predicts whether a p
 
 ## Training Data
 
-The data is from https://archive.ics.uci.edu/dataset/20/census+income, where more information can be found. The features are the typical individual charactertics, for example, age, education and matrital status.
+The data is from https://archive.ics.uci.edu/dataset/20/census+income, where more information can be found. The features are typical individual charactertics, for example, age, education and matrital status.
 
 ## Evaluation Data
 
