@@ -8,7 +8,7 @@ The model uses GradientBoostingClassifier from sklearn.ensemble for a classifica
 
 ## Intended Use
 
-Given a set of characteristics from the US census, the model predicts whether a person makes over 50K USD a year.
+Given a set of census individual characteristics, the model predicts whether a person makes over 50K USD a year.
 
 ## Training Data
 
