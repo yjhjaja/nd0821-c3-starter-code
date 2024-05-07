@@ -4,7 +4,7 @@ For additional information see the Model Card paper: https://arxiv.org/pdf/1810.
 
 ## Model Details
 
-The model uses GradientBoostingClassifier from sklearn.ensemble for a classification task. The parameters are selected from a grid search.
+The model uses GradientBoostingClassifier from sklearn.ensemble for a classification task. The parameters are the best parameters from a grid search.
 
 ## Intended Use
 
