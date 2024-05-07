@@ -32,11 +32,11 @@ def test_post_1():
     assert r.json()=='0'
 
 def test_post_2():
-    data = {"age": 67,
+    data = {"age": 40,
             "workclass": "Private",
-            "fnlgt": 105252,
-            "education": "Masters",
-            "education_num": 14,
+            "fnlgt": 100000,
+            "education": "Doctorate",
+            "education_num": 20,
             "marital_status": "Married-civ-spouse",
             "occupation": "Exec-managerial",
             "relationship": "Husband",
