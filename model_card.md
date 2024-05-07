@@ -19,10 +19,11 @@ The data is from https://archive.ics.uci.edu/dataset/20/census+income, where mor
 The original data is cleaned and then split into training and testing data with a test_size of 0.2.
 
 ## Metrics
-_Please include the metrics used and your model's performance on those metrics._
 
 precision: 0.7882986913010007 
+
 recall: 0.649746192893401
+
 fbeta: 0.7123478260869565
 
 ## Ethical Considerations
