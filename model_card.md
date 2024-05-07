@@ -32,4 +32,4 @@ Whether the model is baised depends on whether the original data is biased. Give
 
 ## Caveats and Recommendations
 
-The model predicts whether a person makes over 50K USD a year. However, this number is nominal and does not adjust with inflation. A more meaningful task is to predict whether a person makes over some amount of real income a year.
+The model predicts whether a person makes over 50K USD a year. However, this number is nominal and is not inflation-adjusted. A more meaningful task is to predict whether a person makes some amount of real income a year, or his position in the income distribution.
