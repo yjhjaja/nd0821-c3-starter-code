@@ -12,7 +12,7 @@ Given a set of census individual characteristics, the model predicts whether a p
 
 ## Training Data
 
-The data is from https://archive.ics.uci.edu/dataset/20/census+income, where more information can be found. The features are typical individual charactertics, for example, age, education and matrital status.
+The data is from https://archive.ics.uci.edu/dataset/20/census+income, where more information can be found. The features are typical individual characteristics, for example, age, education and marital status.
 
 ## Evaluation Data
 
@@ -28,7 +28,7 @@ fbeta: 0.71
 
 ## Ethical Considerations
 
-Whether the model is baised depends on whether the original data is biased. Given that it is census data, the possibility of biasing against any particular group is low.
+Whether the model is biased depends on whether the original data is biased. Given that it is census data, the possibility of biasing against any particular group is low.
 
 ## Caveats and Recommendations
 
