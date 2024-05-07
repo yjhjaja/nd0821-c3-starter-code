@@ -32,7 +32,7 @@ def test_post_1():
     assert r.json()=='0'
 
 def test_post_2():
-    data = {"age": 40,
+    data = {"age": 30,
             "workclass": "Private",
             "fnlgt": 100000,
             "education": "Doctorate",
@@ -42,9 +42,9 @@ def test_post_2():
             "relationship": "Husband",
             "race": "White",
             "sex": "Male",
-            "capital_gain": 0,
+            "capital_gain": 100000,
             "capital_loss": 0,
-            "hours_per_week": 40,
+            "hours_per_week": 50,
             "native_country": "United-States"
             }
     r = client.post("/inference", data = json.dumps(data))
